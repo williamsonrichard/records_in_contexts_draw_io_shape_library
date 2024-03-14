@@ -1,0 +1,668 @@
+<mxfile host="app.diagrams.net" modified="2024-03-08T11:09:19.681Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5615.213 Safari/537.36" etag="vzVkvZxz-K8cvELxncjc" version="24.0.2" type="device">
+  <diagram name="Page-1" id="xcdIDFnPUR1YhYvfdS_O">
+    <mxGraphModel dx="1254" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="er8EHLXbluk2lHaVZjta-5" value="ACOS WebSak" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="210" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="er8EHLXbluk2lHaVZjta-8" value="noark:Arkiv ⊂ rico:RecordResource" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="er8EHLXbluk2lHaVZjta-5" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-2" value="Justisdepartementet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="320" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-3" value="noark:Arkivskaper ⊂ rico:Agent" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-2" vertex="1">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-9" value="rico:CorporateBody" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-2" vertex="1">
+          <mxGeometry y="52" width="220" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-8" value="rico:hasCreator" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.985;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.011;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="er8EHLXbluk2lHaVZjta-8" target="uBbWjFJMf9W-Mqb6hqUy-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1360" y="485.5" as="sourcePoint" />
+            <mxPoint x="1510" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-11" value="ACOS WebSak - 2004 -2009" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="470" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-12" value="noark:Arkivdel ⊂ rico:RecordSet" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-11" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-13" value="rico:directlyIncludes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.475;exitY=1.077;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.46;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="er8EHLXbluk2lHaVZjta-8" target="uBbWjFJMf9W-Mqb6hqUy-11" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1250" y="424" as="sourcePoint" />
+            <mxPoint x="1435" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-14" value="Spørreskjema fra OSSE om offentlighet mv @ - Sak" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="710" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-15" value="noark4:Sak ⊂ noark5:Saksmappe ⊂ noark5:Mappe ⊂ rico:RecordSet" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-14" vertex="1">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-20" value="rico:directlyIncludes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.49;exitY=1.115;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.445;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-12" target="uBbWjFJMf9W-Mqb6hqUy-14" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1233" y="632" as="sourcePoint" />
+            <mxPoint x="1230" y="701" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-21" value="2007/00574" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="570" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-22" value="rico:Identifier" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-21" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-23" value="noark:saksnummer = noark:mappeID ⊂ rico:hasIdentifier" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.998;exitY=-0.227;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="uBbWjFJMf9W-Mqb6hqUy-21" edge="1">
+          <mxGeometry x="0.0452" y="-12" width="80" relative="1" as="geometry">
+            <mxPoint x="1469.16" y="719.9960000000001" as="sourcePoint" />
+            <mxPoint x="1610" y="722.99" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-26" value="Spørreskjema fra OSSE om offentlighet mv @ - Journalpost" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="735" y="836" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-27" value="noark:Journalpost ⊂ noark:Registrering ⊂ rico:Record" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-26" vertex="1">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-28" value="rico:directlyIncludes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.624;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="uBbWjFJMf9W-Mqb6hqUy-26" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1250" y="760" as="sourcePoint" />
+            <mxPoint x="1254" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-30" value="Spørreskjema fra OSSE om offentlighet mv @ - Hovedpart" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1138" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-31" value="noark:Dokumentbeskrivelse ⊂ rico:RecordPart" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-30" vertex="1">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-32" value="rico:directlyIncludes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.483;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.498;exitY=1.227;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="uBbWjFJMf9W-Mqb6hqUy-30" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1250" y="880" as="sourcePoint" />
+            <mxPoint x="1254" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-33" value="Spørreskjema fra OSSE om offentlighet mv @ - Stored Hovedpart" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="1333" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-34" value="noark:Dokumentobjekt ⊂ rico:Instantiation" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-33" vertex="1">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-35" value="rico:hasOrHadDigitalInstantiation" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.442;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.448;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-31" target="uBbWjFJMf9W-Mqb6hqUy-33" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="583" y="1273" as="sourcePoint" />
+            <mxPoint x="587" y="1343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-36" value="Spørreskjema fra OSSE om offentlighet mv @ - Stored Hovedpart - File Size" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1579" width="260" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-37" value="rico:Extent" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-36" vertex="1">
+          <mxGeometry y="26" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-38" value="noark:format ⊂ rico:hasRepresentationType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.138;exitY=1.136;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-34" target="-GxQZIbN0AHXO7FBRM7A-1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="920" y="1120" as="sourcePoint" />
+            <mxPoint x="930" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-39" value="Bytes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1743" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-40" value="rico:UnitOfMeasurement" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-39" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-41" value="rico:hasUnitOfMeasurement" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.956;exitY=1.107;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-37" target="uBbWjFJMf9W-Mqb6hqUy-39" edge="1">
+          <mxGeometry x="-0.2325" y="-14" width="80" relative="1" as="geometry">
+            <mxPoint x="1015" y="1582" as="sourcePoint" />
+            <mxPoint x="1019" y="1652" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-42" value="File Size" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1743" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-43" value="rico:ExtentType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-42" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-44" value="rico:hasExtentType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.6;entryY=-0.019;entryDx=0;entryDy=0;exitX=0.438;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-37" target="uBbWjFJMf9W-Mqb6hqUy-42" edge="1">
+          <mxGeometry x="-0.2325" y="-14" width="80" relative="1" as="geometry">
+            <mxPoint x="1175" y="1798" as="sourcePoint" />
+            <mxPoint x="1286" y="1713" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-48" value="51355" style="html=1;whiteSpace=wrap;rounded=1;perimeterSpacing=0;rotation=0;glass=0;arcSize=45;" parent="1" vertex="1">
+          <mxGeometry x="250" y="1755" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-49" value="rico:quantity" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.35;entryY=-0.033;entryDx=0;entryDy=0;exitX=0.138;exitY=1.25;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-37" target="uBbWjFJMf9W-Mqb6hqUy-48" edge="1">
+          <mxGeometry x="0.0222" y="-7" width="80" relative="1" as="geometry">
+            <mxPoint x="1325" y="1548" as="sourcePoint" />
+            <mxPoint x="1386" y="1381" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-50" value="Document Scanning" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1573" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-51" value="rico:Activity" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-50" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-52" value="noark:forfatter ⊂ rico:hasOrganicOrFunctionalProvenance" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.007;entryY=0.227;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=-0.139;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-34" target="uBbWjFJMf9W-Mqb6hqUy-51" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1375" y="1010" as="sourcePoint" />
+            <mxPoint x="1425" y="1418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-53" value="...Spørreskjema fra OSSE om offentlighet mv @ - Stored Hovedpart&amp;nbsp;Opprettet Dato" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="1500" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-54" value="rico:Date" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="uBbWjFJMf9W-Mqb6hqUy-53" vertex="1">
+          <mxGeometry y="26" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-55" value="noark:opprettetDato ⊂ rico:hasCreationDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.389;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.652;exitY=1.091;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-34" target="uBbWjFJMf9W-Mqb6hqUy-53" edge="1">
+          <mxGeometry x="0.1928" y="26" width="80" relative="1" as="geometry">
+            <mxPoint x="865" y="1403" as="sourcePoint" />
+            <mxPoint x="1243" y="1412" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-56" value="2007-01-19" style="html=1;whiteSpace=wrap;rounded=1;perimeterSpacing=0;rotation=0;glass=0;arcSize=45;" parent="1" vertex="1">
+          <mxGeometry x="790" y="1620" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uBbWjFJMf9W-Mqb6hqUy-57" value="rico:normalizedDateValue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.088;entryY=-0.033;entryDx=0;entryDy=0;exitX=0.556;exitY=1.214;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-54" target="uBbWjFJMf9W-Mqb6hqUy-56" edge="1">
+          <mxGeometry x="-0.0206" y="-7" width="80" relative="1" as="geometry">
+            <mxPoint x="1314" y="1508" as="sourcePoint" />
+            <mxPoint x="930" y="1668" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-GxQZIbN0AHXO7FBRM7A-1" value="PDF File" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1650" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="-GxQZIbN0AHXO7FBRM7A-2" value="rico:RepresentationType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-GxQZIbN0AHXO7FBRM7A-1" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="-GxQZIbN0AHXO7FBRM7A-3" value="noark:filstørrelse&amp;nbsp;⊂ rico:hasExtent" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.428;entryY=-0.037;entryDx=0;entryDy=0;exitX=0.367;exitY=1.227;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-34" target="uBbWjFJMf9W-Mqb6hqUy-36" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="828" y="1372" as="sourcePoint" />
+            <mxPoint x="1025" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-1" value="Svar på spørsmål fra OSSE om offentlighet mv - Journalpost" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1365" y="836" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-2" value="noark:Journalpost ⊂ noark:Registrering ⊂ rico:Record" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sAANsibYR6UfF--6LDjA-1" vertex="1">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-3" value="rico:directlyIncludes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.526;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.56;exitY=1.182;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-15" target="sAANsibYR6UfF--6LDjA-1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1520" y="760" as="sourcePoint" />
+            <mxPoint x="1524" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-5" value="rico:followsInTime" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.007;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.007;exitY=0.227;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="sAANsibYR6UfF--6LDjA-2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1225" y="916" as="sourcePoint" />
+            <mxPoint x="1509" y="1004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-6" value="2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="684" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-7" value="rico:Identifier" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sAANsibYR6UfF--6LDjA-6" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-8" value="noark:journalsekvensnummer ⊂ rico:hasIdentifier" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.852;exitY=-0.083;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.53;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sAANsibYR6UfF--6LDjA-1" target="sAANsibYR6UfF--6LDjA-7" edge="1">
+          <mxGeometry x="-0.0814" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="1804.58" y="853.9960000000001" as="sourcePoint" />
+            <mxPoint x="1935.42" y="780" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-9" value="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="683" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-10" value="rico:Identifier" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sAANsibYR6UfF--6LDjA-9" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-11" value="noark:journalsekvensnummer ⊂ rico:hasIdentifier" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.475;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.214;exitY=-0.021;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-26" target="sAANsibYR6UfF--6LDjA-10" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="594.1599999999999" y="810" as="sourcePoint" />
+            <mxPoint x="870.8400000000001" y="878" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-19" value="Spørreskjema fra OSSE om offentlighet mv" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="736" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-20" value="rico:Title" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sAANsibYR6UfF--6LDjA-19" vertex="1">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-21" value="noark:offentligTittel ⊂ rico:hasTitle" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1.004;entryY=0.154;entryDx=0;entryDy=0;exitX=0.012;exitY=0.045;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="sAANsibYR6UfF--6LDjA-20" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="700" y="871" as="sourcePoint" />
+            <mxPoint x="557" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-22" value="Spørreskjema fra OSSE om offentlighet mv @" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="854" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-23" value="rico:Title" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sAANsibYR6UfF--6LDjA-22" vertex="1">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-24" value="noark:tittel ⊂ rico:hasTitle" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.99;entryY=-0.258;entryDx=0;entryDy=0;exitX=-0.002;exitY=0.136;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="sAANsibYR6UfF--6LDjA-23" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="749" y="921" as="sourcePoint" />
+            <mxPoint x="510" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-25" value="Spørreskjema fra OSSE om offentlighet mv @ - Stored Journalpost" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="656" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-26" value="rico:Instantiation" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sAANsibYR6UfF--6LDjA-25" vertex="1">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-27" value="rico:hasOrHadDigitalInstantiation" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.893;entryY=1.091;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.057;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-26" target="sAANsibYR6UfF--6LDjA-26" edge="1">
+          <mxGeometry x="0.4691" y="18" width="80" relative="1" as="geometry">
+            <mxPoint x="651" y="735" as="sourcePoint" />
+            <mxPoint x="649" y="810" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-28" value="rico:hasOrHadDerivedInstantiation" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.469;exitY=-0.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.49;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sAANsibYR6UfF--6LDjA-25" target="sAANsibYR6UfF--6LDjA-30" edge="1">
+          <mxGeometry x="-0.0002" y="7" width="80" relative="1" as="geometry">
+            <mxPoint x="422" y="630" as="sourcePoint" />
+            <mxPoint x="267" y="554" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-29" value="Spørreskjema fra OSSE om offentlighet mv @ - Offentlig Journalpost" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="480" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-30" value="rico:Instantiation" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sAANsibYR6UfF--6LDjA-29" vertex="1">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-31" value="Publisering" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="522" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-32" value="rico:Activity" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sAANsibYR6UfF--6LDjA-31" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-33" value="rico:isOrWasAffectedBy" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.01;entryY=1.154;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="sAANsibYR6UfF--6LDjA-25" target="sAANsibYR6UfF--6LDjA-32" edge="1">
+          <mxGeometry x="0.1333" y="-19" width="80" relative="1" as="geometry">
+            <mxPoint x="714" y="694" as="sourcePoint" />
+            <mxPoint x="510" y="570" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAANsibYR6UfF--6LDjA-34" value="rico:resultsOrResultedIn" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1.002;entryY=0;entryDx=0;entryDy=0;exitX=-0.015;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="sAANsibYR6UfF--6LDjA-32" target="sAANsibYR6UfF--6LDjA-30" edge="1">
+          <mxGeometry x="-0.0161" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="602" y="580" as="sourcePoint" />
+            <mxPoint x="750" y="528" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-1" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="568" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-2" value="rico:Person" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="X0HMXKiVlBMnoWC9qFHo-1" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-3" value="noark:saksansvarlig ⊂rico:isOrWasUnderAuthorityOf" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.226;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.613;entryY=1.071;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-14" target="X0HMXKiVlBMnoWC9qFHo-2" edge="1">
+          <mxGeometry x="0.4494" y="47" width="80" relative="1" as="geometry">
+            <mxPoint x="1175.5" y="540" as="sourcePoint" />
+            <mxPoint x="1164.5" y="727" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-4" value="rico:performsOrPerformed" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.97;entryY=-0.192;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.013;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X0HMXKiVlBMnoWC9qFHo-2" target="sAANsibYR6UfF--6LDjA-32" edge="1">
+          <mxGeometry x="-0.0662" y="4" width="80" relative="1" as="geometry">
+            <mxPoint x="930" y="670" as="sourcePoint" />
+            <mxPoint x="930" y="568" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-5" value="Saksbehandler" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="396" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-6" value="rico:OccupationType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="X0HMXKiVlBMnoWC9qFHo-5" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-7" value="rico:hasOrHadOccupationOfType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.338;entryY=1.143;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="X0HMXKiVlBMnoWC9qFHo-1" target="X0HMXKiVlBMnoWC9qFHo-6" edge="1">
+          <mxGeometry x="-0.21" y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="1068" y="530" as="sourcePoint" />
+            <mxPoint x="900" y="475" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-10" value="Spørreskjema fra OSSE om offentlighet mv @&amp;nbsp;Journalføringsdato" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1010" width="260" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-11" value="rico:Date" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="X0HMXKiVlBMnoWC9qFHo-10" vertex="1">
+          <mxGeometry y="26" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-12" value="rico:hasCreationDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.04;exitY=0.909;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="X0HMXKiVlBMnoWC9qFHo-10" edge="1">
+          <mxGeometry x="0.2255" y="2" width="80" relative="1" as="geometry">
+            <mxPoint x="587" y="1070" as="sourcePoint" />
+            <mxPoint x="735" y="992" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-13" value="2007-01-23" style="html=1;whiteSpace=wrap;rounded=1;perimeterSpacing=0;rotation=0;glass=0;arcSize=45;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0HMXKiVlBMnoWC9qFHo-14" value="rico:normalizedDateValue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.638;entryY=-0.067;entryDx=0;entryDy=0;exitX=0.394;exitY=1.143;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="X0HMXKiVlBMnoWC9qFHo-11" target="X0HMXKiVlBMnoWC9qFHo-13" edge="1">
+          <mxGeometry x="0.0501" y="12" width="80" relative="1" as="geometry">
+            <mxPoint x="479" y="1105" as="sourcePoint" />
+            <mxPoint x="570" y="1170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTZmT_Rgipvw0_4wDMEO-1" value="Avskrivning" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="960" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="cTZmT_Rgipvw0_4wDMEO-2" value="rico:Activity" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="cTZmT_Rgipvw0_4wDMEO-1" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cTZmT_Rgipvw0_4wDMEO-3" value="rico:isOrWasAffectedBy" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.05;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.971;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="cTZmT_Rgipvw0_4wDMEO-1" edge="1">
+          <mxGeometry x="0.0902" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="1202" y="988" as="sourcePoint" />
+            <mxPoint x="1350" y="910" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTZmT_Rgipvw0_4wDMEO-4" value="Besvart med brev" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="1084" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="cTZmT_Rgipvw0_4wDMEO-5" value="rico:ActivityType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="cTZmT_Rgipvw0_4wDMEO-4" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cTZmT_Rgipvw0_4wDMEO-6" value="rico:hasActivityType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.4;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.481;exitY=1.107;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cTZmT_Rgipvw0_4wDMEO-2" target="cTZmT_Rgipvw0_4wDMEO-4" edge="1">
+          <mxGeometry x="0.0902" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="1230" y="1002" as="sourcePoint" />
+            <mxPoint x="1415" y="1076" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cTZmT_Rgipvw0_4wDMEO-7" value="rico:performsOrPerformed" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;exitX=1.025;exitY=0.389;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X0HMXKiVlBMnoWC9qFHo-1" target="cTZmT_Rgipvw0_4wDMEO-2" edge="1">
+          <mxGeometry x="0.7284" y="-3" width="80" relative="1" as="geometry">
+            <mxPoint x="1908" y="1070" as="sourcePoint" />
+            <mxPoint x="1980" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1520" y="550" />
+              <mxPoint x="1850" y="540" />
+              <mxPoint x="1970" y="600" />
+              <mxPoint x="1800" y="920" />
+              <mxPoint x="1650" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-1" value="Unntatt offentlighet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1213" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-2" value="rico:Rule" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xPOMLKfDKo3AL1xddNn_-1" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-3" value="noark:gradering ⊂ rico:isOrWasRegulatedBy" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;entryX=0.868;entryY=-0.021;entryDx=0;entryDy=0;exitX=0.006;exitY=1.162;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="xPOMLKfDKo3AL1xddNn_-1" edge="1">
+          <mxGeometry x="0.3663" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="610" y="1100" as="sourcePoint" />
+            <mxPoint x="468" y="1262" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="540" y="980" />
+              <mxPoint x="350" y="1020" />
+              <mxPoint x="220" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-4" value="Gradering" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1076" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-5" value="rico:RuleType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xPOMLKfDKo3AL1xddNn_-4" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-6" value="rico:hasRuleType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.581;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.469;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xPOMLKfDKo3AL1xddNn_-1" target="xPOMLKfDKo3AL1xddNn_-5" edge="1">
+          <mxGeometry x="-0.1682" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="30" y="1155" as="sourcePoint" />
+            <mxPoint x="200" y="1180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-7" value="Unntatt offentlighet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1366" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-8" value="rico:Rule" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xPOMLKfDKo3AL1xddNn_-7" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-9" value="noark:skjermingshjemmel ⊂ rico:isOrWasRegulatedBy" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;entryX=0.594;entryY=0;entryDx=0;entryDy=0;exitX=0.257;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="xPOMLKfDKo3AL1xddNn_-7" edge="1">
+          <mxGeometry x="0.8235" y="16" width="80" relative="1" as="geometry">
+            <mxPoint x="799" y="1070" as="sourcePoint" />
+            <mxPoint x="320" y="1306" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="750" y="1050" />
+              <mxPoint x="660" y="1100" />
+              <mxPoint x="450" y="1120" />
+              <mxPoint x="320" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-10" value="Skjerming" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1515" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-11" value="rico:RuleType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xPOMLKfDKo3AL1xddNn_-10" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="xPOMLKfDKo3AL1xddNn_-12" value="rico:hasRuleType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.456;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xPOMLKfDKo3AL1xddNn_-8" target="xPOMLKfDKo3AL1xddNn_-10" edge="1">
+          <mxGeometry x="0.137" y="2" width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="1560" as="sourcePoint" />
+            <mxPoint x="50" y="1520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3apVxeNOp2etvg0ihqw-1" value="Inngående dokument" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="946" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="u3apVxeNOp2etvg0ihqw-2" value="rico:DocumentaryFormType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="u3apVxeNOp2etvg0ihqw-1" vertex="1">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u3apVxeNOp2etvg0ihqw-3" value="noark:journalposttype ⊂ rico:hasDocumentaryFormType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1.001;entryY=-0.005;entryDx=0;entryDy=0;exitX=-0.015;exitY=1.162;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="u3apVxeNOp2etvg0ihqw-2" edge="1">
+          <mxGeometry x="0.612" y="-16" width="80" relative="1" as="geometry">
+            <mxPoint x="760" y="910" as="sourcePoint" />
+            <mxPoint x="413" y="918" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3apVxeNOp2etvg0ihqw-4" value="Hoveddokument" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="1260" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u3apVxeNOp2etvg0ihqw-5" value="rico:DocumentaryFormType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="u3apVxeNOp2etvg0ihqw-4" vertex="1">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="u3apVxeNOp2etvg0ihqw-6" value="noark:tilknyttetRegistreringSom ⊂ rico:hasDocumentaryFormType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.411;entryY=-0.049;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.004;exitY=-0.032;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-31" target="u3apVxeNOp2etvg0ihqw-4" edge="1">
+          <mxGeometry x="-0.3667" y="-44" width="80" relative="1" as="geometry">
+            <mxPoint x="940" y="1190" as="sourcePoint" />
+            <mxPoint x="1457" y="1135.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-1" value="Spørreskjema fra OSSE om offentlighet mv @ - Vedlegg" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1130" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-2" value="noark:Dokumentbeskrivelse ⊂ rico:RecordPart" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KOID2DVLw26jFpj2uqnk-1">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-3" value="rico:directlyIncludes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.447;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.692;exitY=1.066;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="KOID2DVLw26jFpj2uqnk-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1031" y="889" as="sourcePoint" />
+            <mxPoint x="760" y="1138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-4" value="Spørreskjema fra OSSE om offentlighet mv @ - Stored Vedlegg" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1318" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-5" value="noark:Dokumentobjekt ⊂ rico:Instantiation" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KOID2DVLw26jFpj2uqnk-4">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-6" value="rico:hasOrHadDigitalInstantiation" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.397;entryY=-0.095;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.447;exitY=1.091;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-2" target="KOID2DVLw26jFpj2uqnk-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1497" y="1213" as="sourcePoint" />
+            <mxPoint x="1420" y="1363" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-7" value="Vedlegg" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1228" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-8" value="rico:DocumentaryFormType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KOID2DVLw26jFpj2uqnk-7">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-9" value="noark:tilknyttetRegistreringSom ⊂ rico:hasDocumentaryFormType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1.008;exitY=-0.148;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-2" target="KOID2DVLw26jFpj2uqnk-8">
+          <mxGeometry x="0.0644" y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="1447" y="1178" as="sourcePoint" />
+            <mxPoint x="1560" y="1273" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-10" value="Spørreskjema fra OSSE om offentlighet mv @ - Stored Vedlegg - File Size" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1566" width="260" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-11" value="rico:Extent" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KOID2DVLw26jFpj2uqnk-10">
+          <mxGeometry y="26" width="260" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-18" value="195461" style="html=1;whiteSpace=wrap;rounded=1;perimeterSpacing=0;rotation=0;glass=0;arcSize=45;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1704" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-19" value="rico:quantity" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="KOID2DVLw26jFpj2uqnk-18" parent="1">
+          <mxGeometry x="0.0222" y="-7" width="80" relative="1" as="geometry">
+            <mxPoint x="1418" y="1620" as="sourcePoint" />
+            <mxPoint x="2266" y="1367.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-22" value="...Spørreskjema fra OSSE om offentlighet mv @ - Stored Vedlegg Opprettet Dato" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1446" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-23" value="rico:Date" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KOID2DVLw26jFpj2uqnk-22">
+          <mxGeometry y="26" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-26" value="noark:forfatter ⊂ rico:hasOrganicOrFunctionalProvenance" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.372;entryY=-0.055;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-5" target="uBbWjFJMf9W-Mqb6hqUy-50">
+          <mxGeometry x="-0.4228" y="-35" width="80" relative="1" as="geometry">
+            <mxPoint x="940" y="1360" as="sourcePoint" />
+            <mxPoint x="1123" y="1609" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-27" value="noark:opprettetDato ⊂ rico:hasCreationDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.418;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.528;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-5" target="KOID2DVLw26jFpj2uqnk-22">
+          <mxGeometry x="0.1928" y="26" width="80" relative="1" as="geometry">
+            <mxPoint x="1385" y="1381" as="sourcePoint" />
+            <mxPoint x="1415" y="1498" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.007;exitY=-0.064;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-54" target="KOID2DVLw26jFpj2uqnk-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="1640" as="sourcePoint" />
+            <mxPoint x="1260" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-30" value="owl:sameAs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KOID2DVLw26jFpj2uqnk-29">
+          <mxGeometry x="-0.1623" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-31" value="rico:hasUnitOfMeasurement" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1.032;entryY=-0.062;entryDx=0;entryDy=0;exitX=0.122;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-11" target="uBbWjFJMf9W-Mqb6hqUy-40">
+          <mxGeometry x="-0.2325" y="-14" width="80" relative="1" as="geometry">
+            <mxPoint x="1099" y="1680" as="sourcePoint" />
+            <mxPoint x="1160" y="1814" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-32" value="rico:hasExtentType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1.037;entryY=0.831;entryDx=0;entryDy=0;exitX=0.25;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-11" target="uBbWjFJMf9W-Mqb6hqUy-43">
+          <mxGeometry x="-0.2197" y="8" width="80" relative="1" as="geometry">
+            <mxPoint x="514" y="1643" as="sourcePoint" />
+            <mxPoint x="526" y="1752" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1000" y="1860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-33" value="noark:format ⊂ rico:hasRepresentationType" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;exitX=1;exitY=1.182;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.188;entryY=1.214;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-5" target="-GxQZIbN0AHXO7FBRM7A-2">
+          <mxGeometry x="0.0812" y="-34" width="80" relative="1" as="geometry">
+            <mxPoint x="1740" y="1559.5" as="sourcePoint" />
+            <mxPoint x="190" y="1800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1810" y="1740" />
+              <mxPoint x="980" y="2060" />
+              <mxPoint x="200" y="1890" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-35" value="Svar på spørsmål fra OSSE om offentlighet mv - Journalføringsdato" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="849" width="420" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-36" value="rico:Date" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KOID2DVLw26jFpj2uqnk-35">
+          <mxGeometry y="26" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-37" value="rico:hasCreationDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.013;entryY=-0.174;entryDx=0;entryDy=0;exitX=1.009;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="sAANsibYR6UfF--6LDjA-2" target="KOID2DVLw26jFpj2uqnk-36">
+          <mxGeometry x="0.2255" y="2" width="80" relative="1" as="geometry">
+            <mxPoint x="1902" y="922" as="sourcePoint" />
+            <mxPoint x="1850" y="1064" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-38" value="2007-03-30" style="html=1;whiteSpace=wrap;rounded=1;perimeterSpacing=0;rotation=0;glass=0;arcSize=45;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1000" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-39" value="rico:normalizedDateValue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.629;entryY=-0.117;entryDx=0;entryDy=0;exitX=0.247;exitY=1.173;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-36" target="KOID2DVLw26jFpj2uqnk-38">
+          <mxGeometry x="0.0501" y="12" width="80" relative="1" as="geometry">
+            <mxPoint x="2091" y="980" as="sourcePoint" />
+            <mxPoint x="1870" y="1018" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-41" value="rico:hasReceiver" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;entryX=0.008;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.524;exitY=-0.039;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-26" target="uBbWjFJMf9W-Mqb6hqUy-9">
+          <mxGeometry x="0.787" y="2" width="80" relative="1" as="geometry">
+            <mxPoint x="980" y="800" as="sourcePoint" />
+            <mxPoint x="1281" y="873" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="670" />
+              <mxPoint x="1360" y="620" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-42" value="Kultur- og kirkedepartementet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1040" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-44" value="rico:CorporateBody" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KOID2DVLw26jFpj2uqnk-42">
+          <mxGeometry y="26" width="220" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-45" value="noark:korrespondansepartNavn ⊂ rico:hasSender&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.583;entryY=-0.109;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.58;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uBbWjFJMf9W-Mqb6hqUy-27" target="KOID2DVLw26jFpj2uqnk-42">
+          <mxGeometry x="0.0902" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="930" y="920" as="sourcePoint" />
+            <mxPoint x="1115" y="994" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOID2DVLw26jFpj2uqnk-47" value="noark:filstørrelse&amp;nbsp;⊂ rico:hasExtent" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;entryX=0.814;entryY=0.056;entryDx=0;entryDy=0;exitX=0.929;exitY=1.071;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="KOID2DVLw26jFpj2uqnk-5" target="KOID2DVLw26jFpj2uqnk-10">
+          <mxGeometry x="0.5301" width="80" relative="1" as="geometry">
+            <mxPoint x="1578" y="1366" as="sourcePoint" />
+            <mxPoint x="1530" y="1557" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1580" y="1500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

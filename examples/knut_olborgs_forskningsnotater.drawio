@@ -1,0 +1,587 @@
+<mxfile host="app.diagrams.net" modified="2024-03-06T10:54:01.663Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/6.6.2 Chrome/112.0.5615.213 Safari/537.36" etag="3Mr7A2EiiJ2qr2cEO9Q9" version="24.0.2" type="device">
+  <diagram name="Page-1" id="1cF8q0306JEqwwJTlGwe">
+    <mxGraphModel dx="2960" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9tAbXV2A5IAdRQd2oj-A-11" value="Knut Olborgs Forskingsnotater" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="495" width="250" height="48" as="geometry">
+            <mxRectangle x="920" y="610" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9tAbXV2A5IAdRQd2oj-A-12" value="rico:RecordSet" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9tAbXV2A5IAdRQd2oj-A-11" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-3" value="rico:hasCreator" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1.182;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.292;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="czsqDPXMuQd4v_eErH3M-8" edge="1">
+          <mxGeometry x="0.0001" width="80" relative="1" as="geometry">
+            <mxPoint x="810" y="543.0039999999999" as="sourcePoint" />
+            <mxPoint x="810" y="621" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-8" value="Knut Olborg" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="627" y="655" width="250" height="70" as="geometry">
+            <mxRectangle x="850" y="770" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-9" value="rico:Person" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-8" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-10" value="rico:AgentName" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-8" vertex="1">
+          <mxGeometry y="48" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-11" value="rico:hasSender" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1.182;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" target="czsqDPXMuQd4v_eErH3M-8" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="930" y="543" as="sourcePoint" />
+            <mxPoint x="930" y="621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;Forskerarkiv. Samling av forsker Knut Olborgs notater fra kildegransking av arkivet RAFA-2197 Deutscher Oberbefehlshaber Norwegen (DOBN). Knut Olborg har gått systematisk gjennom det, eske for eske, og tatt notater.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Notatene kan være til nytte for andre forskere og studenter som skal arbeidet med dette tyskspråklige og vanskelig tilgjengelige arkivmaterialet. Arkivverket tok imot de digitale filene i 2022. Materialet er elektronisk og består av 105 word-filer (pdf&#39;er).&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="1177" y="125" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-16" value="rico:scopeAndContent" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-11" target="czsqDPXMuQd4v_eErH3M-12" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1270" y="515" as="sourcePoint" />
+            <mxPoint x="1330" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-17" value="Okkupasjonstiden" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1087" y="895" width="250" height="48" as="geometry">
+            <mxRectangle x="110" y="100" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-18" value="rico:Event" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-17" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-19" value="rico:isAssociatedWithEvent" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.876;exitY=1.182;exitDx=0;exitDy=0;entryX=0.22;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-12" target="czsqDPXMuQd4v_eErH3M-17" edge="1">
+          <mxGeometry x="0.085" y="-2" width="80" relative="1" as="geometry">
+            <mxPoint x="1180" y="405" as="sourcePoint" />
+            <mxPoint x="1360" y="405" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-20" value="Norge" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1267" y="525" width="250" height="48" as="geometry">
+            <mxRectangle x="780" y="452" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-21" value="rico:Place" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-20" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-22" value="rico:isAssociatedWithPlace" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-12" target="czsqDPXMuQd4v_eErH3M-20" edge="1">
+          <mxGeometry x="0.0026" width="80" relative="1" as="geometry">
+            <mxPoint x="1220" y="585" as="sourcePoint" />
+            <mxPoint x="1395" y="464" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-23" value="Norsk Bokmål" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1617" y="668" width="250" height="48" as="geometry">
+            <mxRectangle x="1320" y="890" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-24" value="rico:Language" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-23" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-25" value="rico:hasOrHadLanguage" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;exitX=1;exitY=0.182;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.88;entryY=1.136;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-4" target="mxBBHEK_cXtyoJtayE4t-9" edge="1">
+          <mxGeometry x="-0.1726" y="52" width="80" relative="1" as="geometry">
+            <mxPoint x="1987" y="1115" as="sourcePoint" />
+            <mxPoint x="2047" y="1045" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2217" y="1115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-26" value="rico:isOrWasLanguageOf" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.536;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-23" target="czsqDPXMuQd4v_eErH3M-21" edge="1">
+          <mxGeometry x="0.0026" width="80" relative="1" as="geometry">
+            <mxPoint x="1410" y="885" as="sourcePoint" />
+            <mxPoint x="1696" y="1118" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-27" value="Country" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1617" y="795" width="250" height="48" as="geometry">
+            <mxRectangle x="780" y="452" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-28" value="rico:PlaceType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-27" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-29" value="rico:hasOrHadPlaceType" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;exitX=0.512;exitY=1.182;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-21" target="czsqDPXMuQd4v_eErH3M-27" edge="1">
+          <mxGeometry x="-0.2947" y="13" width="80" relative="1" as="geometry">
+            <mxPoint x="1550" y="887" as="sourcePoint" />
+            <mxPoint x="1750" y="875" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1527" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-30" value="Arkivverket" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="285" width="250" height="70" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-31" value="rico:CorporateBody" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-30" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-32" value="rico:AgentName" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-30" vertex="1">
+          <mxGeometry y="48" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-33" value="Arkivvesenet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="125" width="250" height="48" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-35" value="rico:AgentName" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-33" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-36" value="rico:followsInTime" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.496;exitY=1.091;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-35" target="czsqDPXMuQd4v_eErH3M-30" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="610" y="275" as="sourcePoint" />
+            <mxPoint x="584" y="345" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-37" value="rico:hasOrHadHolder" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;entryX=1;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-11" target="czsqDPXMuQd4v_eErH3M-30" edge="1">
+          <mxGeometry x="0.2129" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="850" y="485" as="sourcePoint" />
+            <mxPoint x="791" y="575" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="395" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-38" value="rico:isOrWasUnderAuthorityOf" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;exitX=-0.004;exitY=-0.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1.318;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-12" target="czsqDPXMuQd4v_eErH3M-32" edge="1">
+          <mxGeometry x="0.374" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="675" y="563" as="sourcePoint" />
+            <mxPoint x="520" y="435" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="515" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-39" value="&lt;div style=&quot;text-align: left;&quot;&gt;National Archives of Norway&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="235" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-40" value="rico:name" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=-0.004;exitY=-0.182;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-32" target="czsqDPXMuQd4v_eErH3M-39" edge="1">
+          <mxGeometry x="0.1193" y="4" width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="385" as="sourcePoint" />
+            <mxPoint x="381" y="515" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-41" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;a href=&quot;https://forvaltningsdatabasen.sikt.no/data/enhet/55009&quot;&gt;https://forvaltningsdatabasen.sikt.no/data/enhet/55009&lt;/a&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="70" y="435" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-42" value="rdfs:isDefinedBy" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;exitX=-0.024;exitY=0.773;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.543;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-32" target="czsqDPXMuQd4v_eErH3M-41" edge="1">
+          <mxGeometry x="0.0137" y="21" width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="455" as="sourcePoint" />
+            <mxPoint x="281" y="456" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="355" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-43" value="Knut Olborgs Forskningsnotater Start" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="605" width="260" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-44" value="rico:Date" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-43" vertex="1">
+          <mxGeometry y="26" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-47" value="rico:hasBeginningDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;rounded=0;entryX=0.846;entryY=-0.02;entryDx=0;entryDy=0;exitX=0.016;exitY=-0.045;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-12" target="czsqDPXMuQd4v_eErH3M-43" edge="1">
+          <mxGeometry x="0.0508" y="16" width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="565" as="sourcePoint" />
+            <mxPoint x="353" y="533" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="555" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-48" value="Knut Olborgs Forskningsnotater Slutt" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="777" y="845" width="260" height="50" as="geometry">
+            <mxRectangle x="990" y="970" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-49" value="rico:Date" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="czsqDPXMuQd4v_eErH3M-48" vertex="1">
+          <mxGeometry y="26" width="260" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-50" value="rico:hasEndDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.84;exitY=1.091;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.715;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-12" target="czsqDPXMuQd4v_eErH3M-48" edge="1">
+          <mxGeometry x="0.0016" width="80" relative="1" as="geometry">
+            <mxPoint x="970" y="655" as="sourcePoint" />
+            <mxPoint x="970" y="815" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-52" value="&lt;div style=&quot;text-align: left;&quot;&gt;2018-08-05&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="180" y="755" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-53" value="rico:normalizedDateValue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.619;exitY=0.917;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-44" target="czsqDPXMuQd4v_eErH3M-52" edge="1">
+          <mxGeometry x="0.0569" width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="685" as="sourcePoint" />
+            <mxPoint x="173" y="683" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-55" value="&lt;div style=&quot;text-align: left;&quot;&gt;2021-11-23&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="427" y="855" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="czsqDPXMuQd4v_eErH3M-56" value="rico:normalizedDateValue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.012;exitY=-0.042;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-49" target="czsqDPXMuQd4v_eErH3M-55" edge="1">
+          <mxGeometry x="-0.0199" y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="920" y="945" as="sourcePoint" />
+            <mxPoint x="824" y="1049" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-2" value="Mappestruktur" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="179" width="250" height="48" as="geometry">
+            <mxRectangle x="110" y="100" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-3" value="rico:Mechanism" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3fLlHfyGAeuBOlRW-uyx-2" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-4" value="rico:hasOrganicOrFunctionalProvenance" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.688;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.588;entryY=1.091;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-11" target="3fLlHfyGAeuBOlRW-uyx-3" edge="1">
+          <mxGeometry x="0.437" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="930" y="405" as="sourcePoint" />
+            <mxPoint x="920" y="325" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-14" value="Knut Olborgs Forskningsnotater Storage Instantiation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1297" y="333" width="230" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-15" value="rico:Instantiation" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3fLlHfyGAeuBOlRW-uyx-14" vertex="1">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-16" value="rico:hasOrHadDigitalInstantiation" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.98;exitY=0.136;exitDx=0;exitDy=0;entryX=0.022;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-12" target="3fLlHfyGAeuBOlRW-uyx-15" edge="1">
+          <mxGeometry x="-0.0008" width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="522" as="sourcePoint" />
+            <mxPoint x="1370" y="378" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-17" value="Knut Olborgs Forskningsnotater Storage ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1677" y="250" width="230" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-18" value="rico:Identifier" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3fLlHfyGAeuBOlRW-uyx-17" vertex="1">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-19" value="rico:hasOrHadIdentifier" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.996;exitY=0.042;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="3fLlHfyGAeuBOlRW-uyx-15" target="3fLlHfyGAeuBOlRW-uyx-17" edge="1">
+          <mxGeometry x="-0.0008" width="80" relative="1" as="geometry">
+            <mxPoint x="1600" y="545" as="sourcePoint" />
+            <mxPoint x="1930" y="563" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-20" value="Knut Olborgs Forskningsnotater Tar File Size" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1557" y="415" width="230" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-21" value="rico:InstantiationExtent" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3fLlHfyGAeuBOlRW-uyx-20" vertex="1">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-22" value="rico:hasExtent" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.3;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.013;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3fLlHfyGAeuBOlRW-uyx-15" target="3fLlHfyGAeuBOlRW-uyx-21" edge="1">
+          <mxGeometry x="-0.1052" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="1420" y="605" as="sourcePoint" />
+            <mxPoint x="1510" y="655" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-23" value="Storage ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1777" y="110" width="180" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-24" value="rico:IdentifierType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3fLlHfyGAeuBOlRW-uyx-23" vertex="1">
+          <mxGeometry y="26" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-25" value="rico:hasIdentifierType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.474;exitY=-0.04;exitDx=0;exitDy=0;entryX=0.594;entryY=1.083;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="3fLlHfyGAeuBOlRW-uyx-17" target="3fLlHfyGAeuBOlRW-uyx-24" edge="1">
+          <mxGeometry x="-0.0008" width="80" relative="1" as="geometry">
+            <mxPoint x="1857" y="220" as="sourcePoint" />
+            <mxPoint x="2058" y="188" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-26" value="&lt;div style=&quot;text-align: left;&quot;&gt;d6ef5d07-8b2e-4d7b-9590-a70381765c9a&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1897" y="375" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-27" value="rico:identifier" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.322;exitY=1;exitDx=0;exitDy=0;entryX=0.043;entryY=-0.133;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="3fLlHfyGAeuBOlRW-uyx-18" target="3fLlHfyGAeuBOlRW-uyx-26" edge="1">
+          <mxGeometry x="0.0329" y="-7" width="80" relative="1" as="geometry">
+            <mxPoint x="1787" y="330" as="sourcePoint" />
+            <mxPoint x="1885" y="244" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-28" value="Bytes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1947" y="455" width="180" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-29" value="rico:UnitOfMeasurement" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3fLlHfyGAeuBOlRW-uyx-28" vertex="1">
+          <mxGeometry y="26" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-30" value="rico:hasUnitOfMeasurement" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1.022;exitY=0;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.167;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="3fLlHfyGAeuBOlRW-uyx-21" target="3fLlHfyGAeuBOlRW-uyx-29" edge="1">
+          <mxGeometry x="0.0584" y="-3" width="80" relative="1" as="geometry">
+            <mxPoint x="1780" y="655" as="sourcePoint" />
+            <mxPoint x="1991" y="573" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-31" value="File Size" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1947" y="543" width="180" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-32" value="rico:ExtentType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3fLlHfyGAeuBOlRW-uyx-31" vertex="1">
+          <mxGeometry y="26" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-33" value="rico:hasExtentType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.496;exitY=1.125;exitDx=0;exitDy=0;entryX=0;entryY=0.083;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="3fLlHfyGAeuBOlRW-uyx-21" target="3fLlHfyGAeuBOlRW-uyx-32" edge="1">
+          <mxGeometry x="0.037" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="1620" y="721" as="sourcePoint" />
+            <mxPoint x="1834" y="725" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-36" value="3676160" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1947" y="655" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3fLlHfyGAeuBOlRW-uyx-37" value="rico:quantity" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.213;exitY=1.167;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="3fLlHfyGAeuBOlRW-uyx-21" target="3fLlHfyGAeuBOlRW-uyx-36" edge="1">
+          <mxGeometry x="0.037" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="1539" y="706" as="sourcePoint" />
+            <mxPoint x="1850" y="775" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-3" value="&lt;div&gt;Deutscher Oberbefehlshaber Norwegen Samling&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1457" y="989" width="330" height="48" as="geometry">
+            <mxRectangle x="110" y="100" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-4" value="rico:RecordSet" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mxBBHEK_cXtyoJtayE4t-3" vertex="1">
+          <mxGeometry y="26" width="330" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-5" value="rico:isRecordResourceAssociatedWithRecordResource" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.916;exitY=1;exitDx=0;exitDy=0;entryX=0.048;entryY=-0.062;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="9tAbXV2A5IAdRQd2oj-A-12" target="mxBBHEK_cXtyoJtayE4t-3" edge="1">
+          <mxGeometry x="-0.1483" y="36" width="80" relative="1" as="geometry">
+            <mxPoint x="990" y="615" as="sourcePoint" />
+            <mxPoint x="1408" y="849" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-6" value="Tyskland" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1907" y="895" width="250" height="48" as="geometry">
+            <mxRectangle x="780" y="452" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-7" value="rico:Place" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mxBBHEK_cXtyoJtayE4t-6" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-8" value="Tysk" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1987" y="765" width="250" height="48" as="geometry">
+            <mxRectangle x="1320" y="890" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-9" value="rico:Language" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mxBBHEK_cXtyoJtayE4t-8" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-10" value="rico:isOrWasLanguageOf" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-9" target="mxBBHEK_cXtyoJtayE4t-6" edge="1">
+          <mxGeometry x="0.0026" width="80" relative="1" as="geometry">
+            <mxPoint x="2067" y="895" as="sourcePoint" />
+            <mxPoint x="1745" y="800" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-12" value="rico:hasOrHadPlaceType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.736;entryY=1.136;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-6" target="czsqDPXMuQd4v_eErH3M-28" edge="1">
+          <mxGeometry x="-0.0084" y="11" width="80" relative="1" as="geometry">
+            <mxPoint x="1887" y="915" as="sourcePoint" />
+            <mxPoint x="2340" y="1133" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-14" value="rico:isAssociatedWithPlace" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.312;exitY=-0.042;exitDx=0;exitDy=0;entryX=0.26;entryY=1.091;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-3" target="czsqDPXMuQd4v_eErH3M-21" edge="1">
+          <mxGeometry x="0.0026" width="80" relative="1" as="geometry">
+            <mxPoint x="1567" y="885" as="sourcePoint" />
+            <mxPoint x="1844" y="890" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-15" value="rico:isAssociatedWithPlace" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.045;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-4" target="mxBBHEK_cXtyoJtayE4t-7" edge="1">
+          <mxGeometry x="-0.081" y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="1897" y="1055" as="sourcePoint" />
+            <mxPoint x="2174" y="1060" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-17" value="rico:isAssociatedWithEvent" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.018;exitY=0.045;exitDx=0;exitDy=0;entryX=0.852;entryY=1.182;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-4" target="czsqDPXMuQd4v_eErH3M-18" edge="1">
+          <mxGeometry x="0.1352" y="9" width="80" relative="1" as="geometry">
+            <mxPoint x="1437" y="1195" as="sourcePoint" />
+            <mxPoint x="1676" y="1595" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-18" value="&lt;div style=&quot;text-align: left;&quot;&gt;Et arkiv på om lag 30 hm som ble skapt av tyske militære som var internert i Norge etter krigens slutt. Under alliert kommando måtte de over 350 000 tyskerne administrere seg selv inntil de ble hjemsendt, og dette er arkivet de skapte i den perioden våren 1945 til ut i 1947.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Arkivet var i mange år vært svært lite tilgjengelig for bruk inntil Arkivverket i årene 2016-19 gjennomgikk det og registrerte det i katalog.&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="1457" y="1145" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-19" value="rico:scopeAndContent" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.509;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.447;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-4" target="mxBBHEK_cXtyoJtayE4t-18" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1587" y="1105" as="sourcePoint" />
+            <mxPoint x="1774" y="781" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-20" value="&lt;div&gt;Deutscher Oberbefehlshaber Norwegen&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1137" y="1185" width="250" height="68" as="geometry">
+            <mxRectangle x="110" y="100" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-21" value="rico:CorporateBody" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mxBBHEK_cXtyoJtayE4t-20" vertex="1">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-22" value="rico:AgentName" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mxBBHEK_cXtyoJtayE4t-20" vertex="1">
+          <mxGeometry y="48" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-23" value="rico:hasCreator" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=-0.003;exitY=0.955;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.785;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-4" target="mxBBHEK_cXtyoJtayE4t-20" edge="1">
+          <mxGeometry x="0.0001" width="80" relative="1" as="geometry">
+            <mxPoint x="1297" y="1125" as="sourcePoint" />
+            <mxPoint x="1230" y="1236.996" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-24" value="DOBN Samling Storage Instantiation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1947" y="1145" width="230" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-25" value="rico:Instantiation" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mxBBHEK_cXtyoJtayE4t-24" vertex="1">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="mxBBHEK_cXtyoJtayE4t-26" value="rico:hasOrHadAnalogueInstantiation" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.973;exitY=0.955;exitDx=0;exitDy=0;entryX=0.178;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-4" target="mxBBHEK_cXtyoJtayE4t-24" edge="1">
+          <mxGeometry x="-0.0008" width="80" relative="1" as="geometry">
+            <mxPoint x="1847" y="1085" as="sourcePoint" />
+            <mxPoint x="2164" y="921" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-1" value="DOBN Samling Shelf Space" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1927" y="1305" width="230" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-2" value="rico:InstantiationExtent" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7nN3YjujJQOfU681Miou-1" vertex="1">
+          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-3" value="rico:hasExtent" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.378;exitY=0.917;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mxBBHEK_cXtyoJtayE4t-25" edge="1">
+          <mxGeometry x="-0.1052" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="1907" y="1215" as="sourcePoint" />
+            <mxPoint x="2031" y="1305" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-4" value="Hyllemeter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="2067" y="1415" width="180" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-5" value="rico:UnitOfMeasurement" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7nN3YjujJQOfU681Miou-4" vertex="1">
+          <mxGeometry y="26" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-6" value="rico:hasUnitOfMeasurement" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.73;exitY=1;exitDx=0;exitDy=0;entryX=0.661;entryY=-0.04;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="7nN3YjujJQOfU681Miou-2" target="7nN3YjujJQOfU681Miou-4" edge="1">
+          <mxGeometry x="0.0584" y="-3" width="80" relative="1" as="geometry">
+            <mxPoint x="2137" y="1385" as="sourcePoint" />
+            <mxPoint x="2291" y="1429" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-7" value="Shelf Space" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingTop=3;spacingBottom=3;spacing=1;" parent="1" vertex="1">
+          <mxGeometry x="1817" y="1415" width="180" height="50" as="geometry">
+            <mxRectangle x="390" y="430" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-8" value="rico:ExtentType" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7nN3YjujJQOfU681Miou-7" vertex="1">
+          <mxGeometry y="26" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-9" value="rico:hasExtentType" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.352;exitY=1.042;exitDx=0;exitDy=0;entryX=0.622;entryY=-0.04;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="7nN3YjujJQOfU681Miou-2" target="7nN3YjujJQOfU681Miou-7" edge="1">
+          <mxGeometry x="-0.0161" y="14" width="80" relative="1" as="geometry">
+            <mxPoint x="1897" y="1385" as="sourcePoint" />
+            <mxPoint x="2173" y="1488" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-10" value="30" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1717" y="1325" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-11" value="rico:quantity" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7nN3YjujJQOfU681Miou-1" target="7nN3YjujJQOfU681Miou-10" edge="1">
+          <mxGeometry x="0.037" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="1857" y="1335" as="sourcePoint" />
+            <mxPoint x="2198" y="1536" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-12" value="Okkupasjonstiden Slutt" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1007" y="1078" width="153" height="50" as="geometry">
+            <mxRectangle x="990" y="970" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-13" value="rico:Date" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7nN3YjujJQOfU681Miou-12" vertex="1">
+          <mxGeometry y="26" width="153" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-14" value="&lt;div style=&quot;text-align: left;&quot;&gt;1945&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1265" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-15" value="rico:normalizedDateValue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.432;entryY=0;entryDx=0;entryDy=0;exitX=0.427;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="7nN3YjujJQOfU681Miou-13" target="7nN3YjujJQOfU681Miou-14" edge="1">
+          <mxGeometry x="0.07" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="930" y="1215" as="sourcePoint" />
+            <mxPoint x="834" y="1319" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-16" value="rico:hasEndDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.48;exitY=0.909;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.654;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-18" target="7nN3YjujJQOfU681Miou-12" edge="1">
+          <mxGeometry x="0.0016" width="80" relative="1" as="geometry">
+            <mxPoint x="1187" y="1005" as="sourcePoint" />
+            <mxPoint x="1264" y="1314" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-17" value="Okkupasjonstiden Start" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="697" y="1005" width="153" height="50" as="geometry">
+            <mxRectangle x="990" y="970" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-18" value="rico:Date" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7nN3YjujJQOfU681Miou-17" vertex="1">
+          <mxGeometry y="26" width="153" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;1940&lt;/div&gt;" style="html=1;whiteSpace=wrap;perimeterSpacing=0;rounded=1;labelPadding=0;spacingLeft=0;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="617" y="1165" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-20" value="rico:normalizedDateValue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.644;entryY=0;entryDx=0;entryDy=0;exitX=0.595;exitY=1.083;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="7nN3YjujJQOfU681Miou-18" target="7nN3YjujJQOfU681Miou-19" edge="1">
+          <mxGeometry x="0.07" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="787" y="1155" as="sourcePoint" />
+            <mxPoint x="615" y="1302" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nN3YjujJQOfU681Miou-21" value="rico:hasStartDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.24;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-18" target="7nN3YjujJQOfU681Miou-17" edge="1">
+          <mxGeometry x="0.0016" width="80" relative="1" as="geometry">
+            <mxPoint x="1057" y="1045" as="sourcePoint" />
+            <mxPoint x="1055" y="1161" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
