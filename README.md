@@ -15,11 +15,17 @@ It is (hopefully!) complete, except that we for the moment have omitted 'relatio
 
 The object properties are sorted alphabetically, as are the datatype properties. The ontology classes are split into two: the 'entities' of Records of Contexts are presented first in the order they appear in the conceptual model, and then all other ontology classes are presented in alphabetical order.
 
+
 Examples
 --------
 
 We include a few examples of graphs created using these shapes to illustrate the kinds of things possible. The symbol ⊂ means 'subproperty of' or 'subclass of'. Both screenshots and (in most cases) the underlying draw.io XML files, which can be imported into draw.io, are provided.
 
+
+Coloured entities
+-----------------
+
+The file `records_in_contexts_shape_library--coloured_entities.xml` provides an alternative library in which the entities in RiC-O (with the prefix RiC-E in the conceptual model) are coloured according to the same scheme as that [chosen](https://groups.google.com/g/Records_in_Contexts_users/c/jvPTj01KmU0/m/oWs-ruaTGAAJ) by the developers of RiC-O. An entity which does not itself have a defined colour in this scheme has only its border coloured, in accordance with the entity which it is an immediate subclasses of.
 
 
 Feedback, bugs, suggestions
@@ -46,9 +52,15 @@ We intend to write something which can take a graph built using this shape libra
 How to use
 ----------
 
-[Import](https://www.drawio.com/blog/custom-libraries) the shape library into [draw.io](https://draw.io): go to File -> Open library from -> Device, and then, having downloaded `records_in_contexts_shape_library.xml` from this repository, select it. It may also work to use 'URL' and choose the link to the raw XML file in this repository.
+[Import](https://www.drawio.com/blog/custom-libraries) the shape library into [draw.io](https://draw.io): go to File -> Open library from -> Device, and then, having downloaded `records_in_contexts_shape_library.xml` or `records_in_contexts_shape_library--coloured_entities.xml` from this repository, select it. It may also work to use 'URL' and choose the link to the [raw XML file](https://raw.githubusercontent.com/williamsonrichard/records_in_contexts_draw_io_shape_library/main/records_in_contexts_shape_library.xml) of the shape library or its [coloured version](https://raw.githubusercontent.com/williamsonrichard/records_in_contexts_draw_io_shape_library/main/records_in_contexts_shape_library--coloured_entities.xml) in this repository.
 
 Then simply drag and drop shapes from the library into the graph canvas and tweak and connect them as you wish. There are many shapes, but by hovering over it should be possible to quickly find what you are looking for; the labels (R001 for example) from the Records in Contexts conceptual model are provided to help with this, where a direct mapping exists.
+
+
+Authors
+-------
+
+The original shape library is mainly due to myself, but evolved out of joint work with my colleague Trine Kruse. The version of the library with coloured entities is due to Trine, as is the coloured example. The other examples are due to the pair of us jointly.
 
 
 License
