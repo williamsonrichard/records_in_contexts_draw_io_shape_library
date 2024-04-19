@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T10:54:01.663Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/6.6.2 Chrome/112.0.5615.213 Safari/537.36" etag="3Mr7A2EiiJ2qr2cEO9Q9" version="24.0.2" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-19T11:54:43.839Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5615.213 Safari/537.36" etag="kkjaf47oIUXwG9SNYjoR" version="24.2.5" type="device">
   <diagram name="Page-1" id="1cF8q0306JEqwwJTlGwe">
-    <mxGraphModel dx="2960" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="878" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -574,7 +574,7 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7nN3YjujJQOfU681Miou-21" value="rico:hasStartDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.24;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-18" target="7nN3YjujJQOfU681Miou-17" edge="1">
+        <mxCell id="7nN3YjujJQOfU681Miou-21" value="rico:hasBeginningDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.24;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="czsqDPXMuQd4v_eErH3M-18" target="7nN3YjujJQOfU681Miou-17" edge="1">
           <mxGeometry x="0.0016" width="80" relative="1" as="geometry">
             <mxPoint x="1057" y="1045" as="sourcePoint" />
             <mxPoint x="1055" y="1161" as="targetPoint" />
