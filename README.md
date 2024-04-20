@@ -15,11 +15,13 @@ It is (hopefully!) complete, except that we for the moment have omitted 'relatio
 
 The object properties are sorted alphabetically, as are the datatype properties. The ontology classes are split into two: the 'entities' of Records of Contexts are presented first in the order they appear in the conceptual model, and then all other ontology classes are presented in alphabetical order.
 
+A graph created using the shape library can be parsed to formal OWL using a [command line tool](https://github.com/williamsonrichard/records_in_contexts_draw_io_parser) which we have written: see there for details.
+
 
 Examples
 --------
 
-We include a few examples of graphs created using these shapes to illustrate the kinds of things possible. The symbol ⊂ means 'subproperty of' or 'subclass of'. Both screenshots and (in most cases) the underlying draw.io XML files, which can be imported into draw.io, are provided.
+We include a few examples of graphs created using these shapes to illustrate the kinds of things possible. Two of the examples have been created directly using the shapes, whilst two have been created using the shapes but then elaborated manually upon. The symbol ⊂ means 'subproperty of' or 'subclass of'. Both screenshots and (in most cases) the underlying draw.io XML files, which can be imported into draw.io, are provided.
 
 
 Coloured entities
@@ -40,13 +42,6 @@ Typical uses
 A graphical semantics for an ontology is one that many find easier to understand and work with than a plain text representation. The shape library can be useful in any situation where one wishes to work with Records in Contexts without requiring knowledge of OWL: collaborative modelling or data addition, presentations, visualisation more generally, ... It is likely to be most appropriate for specific data: one record or record set and its properties, perhaps its relation to a few records or record sets, etc.
 
 Draw.io is very flexible and powerful, and there are many ways to customise the graphs created using the shape library.
-
-
-
-Planned directions
-------------------
-
-We intend to write something which can take a graph built using this shape library and generate a formalisation of it in OWL. In the other direction, one could define a graph template for certain kinds of data in draw.io, and programmatically populate the template from OWL data.
 
 
 How to use
